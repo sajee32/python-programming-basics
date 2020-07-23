@@ -11,3 +11,8 @@ def total_seconds(hour, minute, second):
     return(seconds)
 print(total_seconds(1,1,1))
 #substitute the 1,1,1 with your hour,minute,seconds etc.
+
+3)Q)How to define a algebraic function and find the values
+ex:def f(x):
+    return -5*(x**5)+67*(x**2)-47
+print(f(0),f(1),f(2),f(3))
