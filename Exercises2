@@ -1,0 +1,13 @@
+1)#Code for converting miles to feet
+def miles_to_feet(input):
+    feet=input*5280
+    return(feet)
+print(miles_to_feet(INPUT))
+#Substitute the INPUT with the number you wanted
+
+2)#Code for taking hour, minute, and seconds to convert in seconds
+def total_seconds(hour, minute, second):
+    seconds=(hour*3600)+(minute*60)+second
+    return(seconds)
+print(total_seconds(1,1,1))
+#substitute the 1,1,1 with your hour,minute,seconds etc.
